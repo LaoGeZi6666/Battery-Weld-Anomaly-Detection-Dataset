@@ -5,45 +5,36 @@ A comprehensive industrial anomaly detection dataset for battery welding process
  
 ## Dataset Structure 
 Battery-Weld-Anomaly-Detection-Dataset/ 
-    └── train           // 帮助文档
-    │       └── good
-    │           └── .png
+    ├── train           
+    │       ├── good
+    │           ├── .png
     
-    ├── test    // 
+    ├── test    
     │       ├── good
     │           ├── .png
     │       ├── defective
     │           ├── .png
     
-    ├── ground_truth             // DDS核心文件库，包含各版本的include、src、lib文件夹，方便合并
+    ├── ground_truth             
     │       ├── defective
     │           ├── .png
     
-    │   ├── include_src     // 包含各版本的include、src文件夹
-    
-    │       ├── V1.0
-    
-    │           ├── include
-    
-    │           └── src
-    
-    │       └── V......
-    
-    │   └── lib             // 包含各版本的lib文件夹
-    
-    │       ├── arm64       // 支持arm64系统版本的lib文件夹
-    
-    │           ├── V1.0
-    
-    │           └── V......
-    
-    │       └── x86         // 支持x86系统版本的lib文件夹
-    
-    │           ├── V1.0
-    
-    │           └── V......
-    
-    ├── target              // 合成结果存放的文件夹
-    
-    └── temp                // 存放待合并的服务的服务文件夹
+    ├── train_welding.json
+    ├── test_welding.json
+
+## Citation 
+Please cite both **MVTecAD** and this dataset:
+```bibtex 
+@article{bergmann2019mvtecad,
+  title={MVTec AD -- A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection},
+  author={Bergmann, Paul and Fauser, Michael and Sattlegger, David and Steger, Carsten},
+  journal={CVPR},
+  year={2019}
+}
  
+@misc{batteryweld2025,
+  title={Battery-Weld-Anomaly-Detection-Dataset},
+  author={LaoGeZi6666},
+  howpublished={\url{https://github.com/LaoGeZi6666/Battery-Weld-Anomaly-Detection-Dataset}}, 
+  year={2025}
+}
