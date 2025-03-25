@@ -4,7 +4,7 @@
 A comprehensive industrial anomaly detection dataset for battery welding processes, structured in [MVTec Anomaly Detection (MVTecAD)](https://www.mvtec.com/company/research/datasets/mvtec-ad)  format. Suitable for unsupervised/semi-supervised anomaly detection research.
  
 ## Dataset Structure 
-Battery-Weld-Anomaly-Detection-Dataset/ 
+Battery-Weld-Anomaly-Detection-Dataset
     ├── train           
     │       ├── good
     │           ├── .png
