@@ -6,20 +6,23 @@ A comprehensive industrial anomaly detection dataset for battery welding process
 ## Dataset Structure 
     ├── train           
     │       ├── good
-    │           ├── .png
+    │           ├── .png(37 images)
     
     ├── test    
     │       ├── good
-    │           ├── .png
+    │           ├── .png(35 images)
     │       ├── defective
-    │           ├── .png
+    │           ├── .png(93 images)
     
     ├── ground_truth             
     │       ├── defective
-    │           ├── .png
+    │           ├── .png(93 images)
     
-    ├── train_welding.json
-    ├── test_welding.json
+    ├── train_welding.json    //json file for train
+    ├── test_welding.json     //json file for test
+
+## How to use?
+Compliance with MVTecAD dataset specifications.
 
 ## Citation 
 Please cite both **MVTecAD** and this dataset:
