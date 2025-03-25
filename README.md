@@ -33,7 +33,7 @@ Please cite both **MVTecAD** and this dataset:
  
 @misc{batteryweld2025,
   title={Battery-Weld-Anomaly-Detection-Dataset},
-  author={LaoGeZi6666},
+  author={Kang Zhang},
   howpublished={\url{https://github.com/LaoGeZi6666/Battery-Weld-Anomaly-Detection-Dataset}}, 
   year={2025}
 }
