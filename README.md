@@ -23,6 +23,7 @@ A comprehensive industrial anomaly detection dataset for battery welding process
 
 ## How to use?
 Compliance with MVTecAD dataset specifications.
+welding-denoised.zip is date that after data cropping and processing. It can show better performance during network training.
 
 ## Citation 
 Please cite both **MVTecAD** and this dataset:
